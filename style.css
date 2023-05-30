@@ -6,21 +6,18 @@ body {
 #o-choice {
     width: 240px;
     height: 240px;
-    /* background-color: rgb(16, 199, 199); */
     margin-top: 10px;
 }
 
 #y-choice {
     width: 240px;
     height: 240px;
-    /* background-color: yellow; */
     margin-top: 10px; 
 }
 
 #a-choices {
     width: 240px;
     height: 80px;
-    /* background-color: rgb(49, 233, 24); */
     margin: 0 auto;
     margin-top: 10px;
 }
