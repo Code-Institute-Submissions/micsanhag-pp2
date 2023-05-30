@@ -1,8 +1,8 @@
 
 var you;
 var yourScore = 0;
-var opponent;
-var opponentScore = 0;
+var computer;
+var computerScore = 0;
 
 var choices = ["rock", "paper", "scissors"];
 
@@ -22,41 +22,41 @@ function selectChoice() {
     document.getElementById("your-choice").src = you + ".jpg";
 
     //random for oppponent
-    opponent = choices[Math.floor(Math.random() * 3)]; //0- .999999 * 3 = 0-2.99999
-    document.getElementById("opponent-choice").src = opponent + ".jpg";
+    computer = choices[Math.floor(Math.random() * 3)]; //0- .999999 * 3 = 0-2.99999
+    document.getElementById("computer-choice").src = computer + ".jpg";
 
     //check for winner
-    if (you == opponent) {
+    if (you == computer) {
         yourScore += 1;
-        opponentScore += 1;
+        computerScore += 1;
     }
     else {
         if (you == "rock") {
-            if (opponent == "scissors") {
+            if (computer == "scissors") {
                 yourScore += 1;
             }
-            else if (opponent == "paper") {
-                opponentScore += 1;
+            else if (computer == "paper") {
+                computerScore += 1;
             }
         }
         else if (you == "scissors") {
-            if (opponent == "paper") {
+            if (computer == "paper") {
                 yourScore += 1;
             }
-            else if (opponent == "rock") {
-                opponentScore += 1;
+            else if (computer == "rock") {
+                computerScore += 1;
             }
         }
         else if (you == "paper") {
-            if (opponent == "rock") {
+            if (computer == "rock") {
                 yourScore += 1;
             }
-            else if (opponent == "scissors") {
-                opponentScore += 1;
+            else if (computer == "scissors") {
+                computerScore += 1;
             }
         }
     }
 
     document.getElementById("your-score").innerText = yourScore;
-    document.getElementById("opponent-score").innerText = opponentScore;
+    document.getElementById("computer-score").innerText = computerScore;
 }
