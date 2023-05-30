@@ -1,12 +1,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: bisque;
+}
+
+.element {
+  /* Default styles */
+  width: 100px;
+  height: 100px;
+  background-color: white;
 }
 
 #o-choice {
-    width: 240px;
-    height: 240px;
+    width: 100px;
+    height: 100px;
     margin-top: 10px;
 }
 
@@ -26,4 +32,31 @@ body {
 #choices img {
     width: 80px;
     height: 80px;
+}
+
+
+
+
+/* Responsive styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  .element {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/* Responsive styles for screens between 601px and 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .element {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/* Responsive styles for screens larger than 1024px */
+@media (min-width: 1025px) {
+  .element {
+    width: 100%;
+    height: 100%;
+  }
 }
