@@ -1,39 +1,22 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# PP2 project: Rock, Paper, Scissors Game
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+Welcome to the classic game "Rock, Paper, and Scissors." This project showcases my skills in web development using HTML, CSS, and JavaScript.
 
-## Codeanywhere Reminders
+## Game Description
+ Engage in an intense battle against the computer and put your strategic thinking to the test. Choose your weapon wisely—rock, paper, or scissors—and prepare for an epic showdown!
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+- Interactive gameplay: Select your move with a simple click.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Project Structure
 
-`http_server`
+- `index.html`: The main HTML file containing the game structure and user interface elements.
+- `style.css`: The CSS file that handles the visual styling and layout of the game.
+- `script.js`: The JavaScript file that implements the game logic and controls the gameplay.
+- `images/`: A directory that stores images and assets used in the game.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
